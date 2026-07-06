@@ -18,3 +18,12 @@ This game is a great example of the following coding principals demonstrated in 
 - Unicode Encoding
 - Controller Integration
 - Cursor Movement
+
+## Screenshots
+
+![Intro Screen](Images/Intro_Screen.png)
+![Main Menu Screen](Images/Main_Menu_Screen.png)
+![Castle Map Screen](Images/Castle_Map_Screen.png)
+![Throne Map Screen](Images/Throne_Map_Screen.png)
+![Player Stats Screen](Images/Player_Stats_Screen.png)
+![Battle Screen](Images/Battle_Screen.png)
