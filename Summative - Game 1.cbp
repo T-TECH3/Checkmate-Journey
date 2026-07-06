@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Summative - Game 1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Summative - Game 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../SDL 2 (64 bit)/include/SDL2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lmingw32 -lSDL2main -lSDL2" />
+					<Add directory="../../SDL 2 (64 bit)/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Summative - Game 1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-Dlibxl" />
+			<Add directory="F:/Summative - Maze/Game/SDL 2/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -ISDL2main -ISDL2" />
+			<Add directory="F:/Summative - Maze/Game/SDL 2/lib" />
+		</Linker>
+		<Unit filename="include/Character.h" />
+		<Unit filename="include/Container_Maze_Solver.h" />
+		<Unit filename="include/Container_NPC.h" />
+		<Unit filename="include/Controller.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Informant.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/Linked_List_Item.h" />
+		<Unit filename="include/Merchant.h" />
+		<Unit filename="include/NPC.h" />
+		<Unit filename="include/Node_Item.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Queue_NPC.h" />
+		<Unit filename="include/Screen.h" />
+		<Unit filename="include/Stack_Maze_Solver.h" />
+		<Unit filename="include/Stats_Item.h" />
+		<Unit filename="include/Tile.h" />
+		<Unit filename="include/Unlock_Item.h" />
+		<Unit filename="include/Utility_Function.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Character.cpp" />
+		<Unit filename="src/Container_Maze_Solver.cpp" />
+		<Unit filename="src/Container_NPC.cpp" />
+		<Unit filename="src/Controller.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Informant.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Linked_List_Item.cpp" />
+		<Unit filename="src/Merchant.cpp" />
+		<Unit filename="src/NPC.cpp" />
+		<Unit filename="src/Node_Item.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Queue_NPC.cpp" />
+		<Unit filename="src/Screen.cpp" />
+		<Unit filename="src/Stack_Maze_Solver.cpp" />
+		<Unit filename="src/Stats_Item.cpp" />
+		<Unit filename="src/Tile.cpp" />
+		<Unit filename="src/Unlock_Item.cpp" />
+		<Unit filename="src/Utility_Function.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
